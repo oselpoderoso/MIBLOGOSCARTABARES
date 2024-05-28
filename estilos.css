@@ -1,0 +1,421 @@
+/* estilos.css */
+
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos del header */
+header {
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    color: #000000;
+    margin-left: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #343434;
+}
+
+  
+  /* Estilos de la sección de perfil */
+.profile-section {
+    position: relative;
+    background-image: url('images/perfil.jpg');
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: center;
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.profile-content {
+    position: absolute;
+    top: 1;
+    left: 0;
+    width: 100%; /* Ajusta el ancho al 100% del contenedor padre */
+    height: 100%; /* Ajusta la altura al 100% del contenedor padre */
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo negro translúcido */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profile-section h2 {
+    position: relative;
+    top: 50px;
+    margin: 0;
+    font-size: 2em;
+    padding-top: 20px;
+}
+
+.profile-section p {
+    padding-left: 90px;
+    padding-right: 90px;
+    text-align: justify;
+    position: relative;
+    top: 60px;
+    margin: 10px 0;
+}
+
+.profile-section button {
+    position: relative;
+    top: 110px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.profile-section button:hover {
+    background-color: #000000;
+}
+
+  
+  .content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .posts {
+    
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .posts .post {
+    max-width: 1200px;
+
+    padding: 50px;
+    text-align: justify;
+    flex: 2;
+    margin-right: 20px;
+  }
+  
+  .posts .post-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .posts .post-item {
+
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para el título "Un Artista en el Mundo de la Tecnología" en acercademi.html */
+
+#aboutmetittle {
+    color: #000000; /* Color del texto */
+    font-size: 24px; /* Tamaño del texto */
+    font-weight: bolder; /* Grosor del texto */
+    text-align: justify; /* Alineación del texto */
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 40px;
+    margin-bottom: 0px; /* Espacio inferior */
+  
+}
+
+#arteytec {
+    align-items: center;
+    max-width: 1200px;
+    max-height: 1200px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+#aboutme {
+    color: #000000; /* Color del texto */
+    font-size: 14px; /* Tamaño del texto */
+    font-weight: lighter; /* Grosor del texto */
+    text-align: justify; /* Alineación del texto */
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 30px;
+    margin-bottom: 40px; /* Espacio inferior */
+  }
+  
+#proyectostittle {
+    color: #000000; /* Color del texto */
+    font-size: 24px; /* Tamaño del texto */
+    font-weight: bolder; /* Grosor del texto */
+    text-align: justify; /* Alineación del texto */
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 40px;
+    margin-bottom: 0px; /* Espacio inferior */
+  
+}
+
+#dondejuan {
+    align-items: center;
+    max-width: 600px;
+    max-height: 1200px;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+
+#proyectostext {
+    color: #000000; /* Color del texto */
+    font-size: 14px; /* Tamaño del texto */
+    font-weight: lighter; /* Grosor del texto */
+    text-align: justify; /* Alineación del texto */
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 30px;
+    margin-bottom: 40px; /* Espacio inferior */
+}
+
+#botonjuan {
+    padding-left: 90px;
+}
+
+main {
+    padding: 20px;
+    text-align:justify;
+}
+
+#experienciatitle {
+    color: #000000; /* Color del texto */
+    font-size: 24px; /* Tamaño del texto */
+    font-weight: bolder; /* Grosor del texto */
+    text-align: justify; /* Alineación del texto */
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 40px;
+    margin-bottom: 0px; /* Espacio inferior */
+  
+}
+
+#viaje {
+    align-items: center;
+    max-width: 1000px;
+    max-height: 1200px;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+
+#experienciatext {
+    color: #000000; /* Color del texto */
+    font-size: 14px; /* Tamaño del texto */
+    font-weight: lighter; /* Grosor del texto */
+    text-align: justify; /* Alineación del texto */
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 30px;
+    margin-bottom: 40px; /* Espacio inferior */
+}
+
+#tecarte {
+    width: 1000px;
+}
+
+#iaweb {
+    width: 800px;
+}
+
+#cyber{
+    max-width: 1000px;
+    max-height: 800px;
+}
+
+  /* Estilos del formulario */
+.contact .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-form {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+.contact-form form {
+    background-color: #f8f8f8;
+    border-radius: 12px;
+    flex: 1;
+    min-width: 600px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact-form .contact-info {
+    max-width: 800px;
+    max-height: 150px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 12px;
+    flex: 1;
+    min-width: 200px;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-form .input-field {
+    width: 100%;
+    max-width: 200px; /* Limitar el ancho máximo */
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #676767;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea.input-field {
+    resize: vertical;
+}
+
+.contact-form .recaptcha-placeholder {
+    margin-top: 20px;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+  
+  /* Footer styles */
+footer {
+    background-color: #fff;
+    padding: 20px 40px;
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .footer-content > div {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .footer-content > div:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-content h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .footer-content p, .footer-content ul {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .footer-content a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .footer-content a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-content ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-social a {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-nav ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  
